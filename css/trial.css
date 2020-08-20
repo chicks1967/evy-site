@@ -580,8 +580,11 @@ li,
   .container img {
     width: 90%;
   }
-  .back p {
+  /* .back p {
     display: none;
+  } */
+  .back p {
+    line-height: 1;
   }
   .page-2-body {
     padding: 0;
@@ -604,5 +607,8 @@ li,
   }
   .footer-media-icons {
     width: 90vw;
+  }
+  .page-3-paragraph {
+    line-height: 1.5;
   }
 }
