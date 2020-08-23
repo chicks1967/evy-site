@@ -340,6 +340,10 @@ i:hover {
   margin-bottom: 40px;
 }
 
+.num {
+  text-align: center;
+}
+
 /*testimonial-section*/
 
 .testimonial-header {
@@ -548,6 +552,9 @@ li,
   .phone {
     margin-bottom: 1rem;
   }
+  .page-3-paragraph {
+    line-height: 2;
+  }
 }
 @media (max-width: 400px) {
   .vanish-2 {
@@ -566,7 +573,7 @@ li,
     padding: 0;
   }
   .page-3-paragraph {
-    line-height: 2;
+    line-height: 1.75;
   }
   .testimonial-column-b {
     display: none;
@@ -609,6 +616,10 @@ li,
     width: 90vw;
   }
   .page-3-paragraph {
-    line-height: 1.2;
+    line-height: 1.3;
+    overflow: scroll;
+  }
+  span {
+    display: none;
   }
 }
