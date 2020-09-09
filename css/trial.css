@@ -555,6 +555,15 @@ li,
   .page-3-paragraph {
     line-height: 2;
   }
+  .card-container3:hover .card {
+    transform: rotateY(0deg);
+  }
+  .card-container2:hover .card {
+    transform: rotateY(0deg);
+  }
+  .card-container:hover .card {
+    transform: rotateY(0deg);
+  }
 }
 @media (max-width: 400px) {
   .vanish-2 {
